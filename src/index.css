@@ -1,0 +1,66 @@
+@font-face {
+      font-family: percifico;
+      src: url(./assets/fonts/Pacifico/Pacifico-Regular.ttf);
+}
+@font-face {
+      font-family: lobster;
+      src: url(./assets/fonts/Lobster/Lobster-Regular.ttf);
+}
+
+.bg{
+      background: url('./assets/bg_1.jpg');
+      background-position: center;
+      background-repeat: repeat;
+      background-size: cover;
+
+}
+
+.bg-2{
+      background: url('./assets/bg_5.jpg');
+      background-position: center;
+      background-repeat: repeat;
+      background-size: cover;
+
+}
+
+.bg-3{
+      background: url(./assets/nicole-geri-Eb1mX9ds7sc-unsplash.jpg);
+      background-position: center;
+      background-repeat: repeat;
+      background-size: cover;
+}
+
+.bg-4{
+      background: url(./assets/faceAfrica/img.jpeg);
+      background-position: center;
+      background-repeat: repeat;
+      background-size: cover;
+}
+
+.center{
+      display: grid;
+      place-content: center;
+}
+
+.dim{
+      background-color: rgba(0, 0, 0, 0.5);
+}
+.f-percifico{
+      font-family: percifico;
+      letter-spacing: 4px;
+}
+
+.f-lobster{
+      font-family: lobster;
+      letter-spacing: 4px;
+}
+
+.scroll{
+      overflow: auto;
+}
+
+.circle{
+      border-radius: 50% !important;
+      height:6rem;
+      width:6rem;
+}
